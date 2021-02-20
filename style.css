@@ -1,0 +1,246 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collaps;
+    margin:0px;
+    padding:0px;
+    color:black;        
+    }
+
+h1{
+    font-size:80px;
+    font-weight: bold;}
+
+.font1{
+    font-size:40px;
+    font-weight: bold;
+}
+.font2{
+    font-size:20px;
+    font-weight: regular;}
+
+.font3{
+    font-size:16px;
+    font-weight: regular;}
+
+.font4{
+    font-size:14px;
+    font-weight: 100;}
+
+.result{
+    font-size:24px;
+    font-weight: medium;}
+
+.intro_bg{
+    background-image:url(image/Layer%208.png);
+    width:100%;
+    height:580px;
+}
+
+.logo{
+    width: 75px;
+    height: 25px;
+    margin-top: 24px;
+    margin-left: 24px;
+    background-color: forestgreen;
+}
+
+
+.header{
+    display:flex;
+    width:1920px;
+    margin:auto;
+    height: 86px;
+    
+}
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height: 48px;
+    width:1920px;
+    padding: 24px;
+    background-color: fuchsia;
+    
+}
+.nav > li > a {
+    color:white;
+    margin-left:84px;
+}
+
+.intro_text{
+    width:100%;
+    margin:200px auto 200px auto;
+    text-align: center;
+    }
+
+.intro_text > h1 {
+    color :white;
+}
+
+/*header끝*/
+
+
+.main1{
+    display: flex;
+    width:1180px;
+    height: 600px;
+    background-color: red;
+    margin: auto;
+}
+
+.main1 > .shose_image {
+    flex: 1;
+    height: 300px;
+    margin-top: 200px;
+}
+
+
+.amount > li > div{
+    text-align: center;
+    border-right: 1px solid #E1E1E1;
+    height: 57px;
+    margin-top: 37px;
+    
+}
+
+/*main text*/
+
+.main_text0{
+    width:100%;
+    height: 600px;
+    margin-top:-132px;
+    background-color: #f1f2f3;
+}
+
+.main_text0 > h1{
+    padding-top: 116px;
+    text-align: center;
+}
+
+.main_text0 > .contents1{
+    text-align: center;
+}
+
+.icons{
+    display:flex;
+    width:1280px;
+    height:302px;
+    margin:auto;
+}
+
+.icons > li {
+    flex:1;
+    background-color: white;
+    margin-top: 48px;
+    height: 300px;
+    text-align: center;
+}
+
+.icons > li >.icon_img{
+    margin-top: 24px;
+}
+
+
+
+.icons > li:not(:last-child){
+    margin-right: 20px;
+}
+
+.icons .contents3 {
+    width: 240px;
+    margin: auto;
+    letter-spacing: -1px;
+}
+
+.more{
+    width:100px;
+    height: 30px;
+    background-color: #2F7AF4;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 25px auto;
+}
+    
+    
+.main_text1{
+    width: 100%;
+    height: 660px;
+}
+
+.main_text1 > h1{
+    padding-top:50px;
+    text-align: center;
+}
+
+.main_text1 > .contents1{
+    text-align: center;
+}
+
+.service{
+    width:1280px;
+    display: flex;
+    margin: 48px auto;
+    height: 428px;
+}
+
+.service > .contents2{
+        padding:24px;
+}
+
+.service > .contents2 > h2{
+        margin-bottom: 28px;
+}
+
+
+.main_text2{
+    width:100%;
+    height: 418px;
+    background-image: url(image/layer2.png)
+}
+
+.main_text2 > ul{
+    display: flex;
+    padding-top: 138px;
+}
+
+.main_text2 > ul > li{
+    flex:1;
+    text-align: center;
+}
+
+
+.main_text2 > ul > li > div >h1,
+.main_text2 > ul > li > .contents1 {
+    color: white;
+}
+
+.more2{
+    width:220px;
+    height: 40px;
+    line-height: 40px;
+    margin: 16px auto;
+    border: 1px solid #fff;
+    cursor:pointer;
+    color:#fff;
+    
+}
+
+footer{
+    display: flex;
+    background-color: #1f1f1f;
+    padding: 30px;
+}
+
+footer > div:first-child{
+    flex:3;
+    color:white;
+    text-align: center;
+}
+
+footer > div:last-child{
+    flex:9;
+    color:white;
+}
